@@ -18,3 +18,26 @@ else{
 }
 
 console.log(estacion);
+
+// Mismo ejemplo con AND en lugar de OR
+
+let mesAlt = 111;
+let estacionAlt;
+
+if( mesAlt >= 1 && mesAlt <= 3){
+    estacionAlt = "Verano";
+}
+else if( mesAlt >= 4 && mesAlt <= 6){
+    estacionAlt = "Otoño";
+}
+else if( mesAlt >= 7 && mesAlt <= 9){
+    estacionAlt = "Invierno";
+}
+else if( mesAlt >= 10 && mesAlt <= 12){
+    estacionAlt = "Primavera";
+}
+else{
+    estacionAlt = "Valor incorrecto";
+}
+
+console.log(estacionAlt);
