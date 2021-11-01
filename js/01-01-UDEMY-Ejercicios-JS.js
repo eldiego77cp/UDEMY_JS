@@ -64,3 +64,21 @@ switch (mes) {
         console.log("Caso no encontrado")
         break;
 }
+
+//Programa que pida 2 números y nos diga cual es mayor, menor y si son iguales
+
+let num1 = Number(prompt("Ingrese el primer número: ", ""));
+let num2 = Number(prompt("Ingrese el segundo número: ", ""));
+
+if( num1 === num2 ){
+    console.log(`El primer número ingresado es igual al segundo (${num1} = ${num2})`);
+    document.write(`El primer número ingresado es igual al segundo (${num1} = ${num2})`);
+}
+else if( num1 > num2 ) {
+    console.log(`El primer número ingresado es mayor al segundo (${num1} > ${num2})`);
+    document.write(`El primer número ingresado es mayor al segundo (${num1} > ${num2})`);
+}
+else{
+    console.log(`El primer número ingresado es menor al segundo (${num1} < ${num2})`);
+    document.write(`El primer número ingresado es menor al segundo (${num1} < ${num2})`);
+}
